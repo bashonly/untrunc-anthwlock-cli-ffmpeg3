@@ -1,0 +1,26 @@
+pkgbase = untrunc-anthwlock-cli-ffmpeg3
+	pkgdesc = Restore a truncated mp4/mov. CLI only. (Compiled against ffmpeg 3.3.9)
+	pkgver = r308.d72ec32
+	pkgrel = 1
+	url = https://github.com/anthwlock/untrunc
+	arch = x86_64
+	license = GPL2
+	makedepends = git
+	makedepends = yasm
+	depends = gcc-libs
+	depends = glibc
+	provides = untrunc
+	conflicts = untrunc-anthwlock-cli-git
+	conflicts = untrunc-git
+	noextract = ffmpeg-3.3.9.tar.xz
+	source = untrunc-anthwlock::git+https://github.com/anthwlock/untrunc.git#commit=d72ec324fbc29eb00b53c7dafeef09f92308962b
+	source = https://www.ffmpeg.org/releases/ffmpeg-3.3.9.tar.xz
+	source = https://www.ffmpeg.org/releases/ffmpeg-3.3.9.tar.xz.asc
+	source = ffmpeg-libavcodec-x86-mathops.patch::https://git.ffmpeg.org/gitweb/ffmpeg.git/commitdiff_plain/effadce6c756247ea8bae32dc13bb3e6f464f0eb
+	validpgpkeys = FCF986EA15E6E293A5644F10B4322F04D67658D8
+	sha256sums = SKIP
+	sha256sums = ae34f14fffa65a1a59b256737ca9af7bf4e296b7c4320d42512350126ce06c84
+	sha256sums = 29aeae6d7a8748f3a5fb7b284353c70fd6f3432f987fd53e8248526706e5d9fa
+	sha256sums = f070ac16be68b4d32b1b5b885d146eb36eb508daa928b6f0f78256c3482f9f0e
+
+pkgname = untrunc-anthwlock-cli-ffmpeg3

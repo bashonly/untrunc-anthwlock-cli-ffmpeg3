@@ -1,0 +1,8 @@
+/*.asc
+/*.tar.xz
+/*.tar.gz
+/*.tar.zst
+/ffmpeg-libavcodec-x86-mathops.patch
+/pkg
+/src
+/untrunc-anthwlock*
